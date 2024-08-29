@@ -1,26 +1,29 @@
 body{  
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdWTzqreggWGx3-9xXSNbkvvNGxq1sz1I2VA&s);
+    background-color: black;
 }
 
 .Title{
     text-align: center;
     font-size:6em;
-    padding: 0.5em;
 
     /* Bungee font(imported) */
     font-family: "Bungee Tint", sans-serif;
     font-weight: 400;
     font-style: normal;
+    border: red 0.05em solid;
     
-    
-    
+    position: relative;
+    top: -0.5em;
 }
 
-h1, h3{
+.TitleBox{
     /* Bungee font(imported) */
     font-family: "Bungee Tint", sans-serif;
     font-weight: 400;
     font-style: normal;
+    width: 60%;
+    border: red 0.3em solid;
+    text-align: center;
 }
 
 p{
@@ -30,11 +33,31 @@ p{
 }
 
 .MainBox{
-    float: left;
     width: 60%;
-    height: 50em;
+    border: red 0.3em solid;
+    display: inline-block;
+    vertical-align: auto;
 }
 
 .MainImage{
-    width: 91;
+    width: 100%;
 }
+
+.Navigation{
+    /* Bungee font(imported) */
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 60%;
+    border: red 0.3em solid;
+    text-align: center;
+
+    float: right;
+    width: 35%;
+    padding-left: 0em;
+    border: red 0.3em solid;
+    height: 40.5em;
+    position: relative;
+    top: -8.5em;
+}
+
